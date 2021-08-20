@@ -1,0 +1,27 @@
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
+.intro-name{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.mobile-menu{
+    font-size: 100px;
+}
